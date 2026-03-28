@@ -1,0 +1,15 @@
+.env
+.env.*
+credentials.json
+*.pem
+*.key
+*.p12
+token*.json
+client_secret_*.json
+.sessions/
+.notion_ids.json
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Money Transfer Services from Japan | Fees, Rates &amp; Scam Check</title>
+  <meta name="description" content="Compare Wise, Revolut, SBI Remit and more for sending money from Japan. See real-time fees, exchange rates, and check for scams. Free tool for expats in Japan.">
+  <meta name="keywords" content="money transfer Japan, send money from Japan, Wise Japan, Revolut Japan, remittance Japan, compare transfer fees, Japan expat, foreigner Japan banking">
+
+  <!-- OGP Tags -->
+  <meta property="og:title" content="Compare Money Transfer Services from Japan">
+  <meta property="og:description" content="Find the cheapest way to send money from Japan. Compare fees, exchange rates, and transfer speeds for Wise, Revolut, SBI Remit and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://humancronadmin.github.io/money-transfer-japan/">
+  <meta property="og:image" content="https://humancronadmin.github.io/money-transfer-japan/images/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Compare Money Transfer Services from Japan">
+  <meta name="twitter:description" content="Find the cheapest way to send money from Japan. Compare fees, rates & check for scams.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://humancronadmin.github.io/money-transfer-japan/">
+
+  <!-- Google AdSense placeholder - replace with your ad client ID -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Money Transfer Japan</h1>
+    <p>Compare fees, exchange rates &amp; transfer speeds for sending money from Japan. Plus a free scam checker to keep your money safe.</p>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="nav-tabs">
+    <button class="nav-tab active" data-section="compare-section">Compare Services</button>
+    <button class="nav-tab" data-section="scam-section">Scam Checker</button>
+  </nav>
+
+  <!-- Section 1: Compare Services -->
+  <div id="compare-section" class="section active">
+    <div class="container">
+
+      <!-- Input Card -->
+      <div class="input-card">
+        <h2>How much are you sending?</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="amount">Amount (JPY)</label>
+            <input type="number" id="amount" placeholder="e.g. 100000" min="1" step="1000" value="100000">
+          </div>
+          <div class="form-group">
+            <label for="currency">Destination Country / Currency</label>
+            <select id="currency">
+              <!-- Populated by JS -->
+            </select>
+          </div>
+        </div>
+        <button id="compare-btn" class="btn-primary">Compare Services</button>
+        <div id="rate-info" class="rate-info">Loading exchange rates...</div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> Fees and exchange rates shown are estimates based on publicly available information and live mid-market rates. Actual costs may vary. Always verify on the service's official website before sending money. This site does not provide financial advice.
+      </div>
+
+      <!-- Results -->
+      <div id="results-area" class="results-area" style="display:none;">
+        <div class="results-header">
+          <h2>Comparison Results</h2>
+          <select id="sort-by" class="sort-select">
+            <option value="recipient_amount">Best Value (Most Received)</option>
+            <option value="fee">Lowest Fee</option>
+            <option value="speed">Fastest</option>
+          </select>
+        </div>
+        <div id="results"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Section 2: Scam Checker -->
+  <div id="scam-section" class="section">
+    <div class="container">
+
+      <div class="input-card">
+        <h2>Is this a scam? Check here.</h2>
+        <p style="margin-bottom:1rem;color:var(--text-secondary);font-size:0.9rem;">
+          Describe the situation or paste the message you received. We'll check it against known scam patterns targeting foreigners in Japan.
+        </p>
+        <div class="scam-input-area">
+          <textarea id="scam-input" placeholder="Example: Someone on LINE says I won a lottery and need to pay a processing fee to claim the prize..."></textarea>
+        </div>
+        <button id="scam-check-btn" class="btn-primary">Check for Scams</button>
+      </div>
+
+      <!-- Scam Results -->
+      <div id="scam-results"></div>
+
+      <!-- Common Scams Reference -->
+      <div class="common-scams">
+        <h2>Common Scams Targeting Foreigners in Japan</h2>
+        <div id="common-scams-list"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Money Transfer Japan &mdash; Free comparison tool for expats in Japan</p>
+    <p>Data is for reference only. Always verify fees on official websites.</p>
+    <p>Built with care for the international community in Japan.</p>
+    <p style="margin-top:0.5rem;"><a href="https://github.com/humancronadmin/money-transfer-japan" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/scam-checker.js"></script>
+
+</body>
+</html>

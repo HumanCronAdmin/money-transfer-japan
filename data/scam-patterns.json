@@ -1,0 +1,92 @@
+[
+  {
+    "id": "advance_fee",
+    "keywords": ["pay first", "advance fee", "processing fee", "pay fee before", "send fee", "pay upfront", "transfer fee first", "pay to receive"],
+    "risk_level": "danger",
+    "title": "Advance Fee Scam",
+    "description": "You are asked to pay a fee before receiving money. Legitimate services never require you to send money first to receive a transfer.",
+    "advice": "STOP immediately. Never send money to receive money. This is one of the most common scams targeting foreigners in Japan.",
+    "examples": ["You won a prize, pay the processing fee to claim it", "Pay a small fee to unlock your inheritance", "Transfer fee required before your loan is approved"]
+  },
+  {
+    "id": "crypto_request",
+    "keywords": ["bitcoin", "cryptocurrency", "crypto", "btc", "ethereum", "usdt", "tether", "crypto wallet", "blockchain transfer"],
+    "risk_level": "danger",
+    "title": "Cryptocurrency Payment Scam",
+    "description": "Someone is asking you to send money via cryptocurrency. Scammers prefer crypto because transactions are irreversible and hard to trace.",
+    "advice": "Legitimate businesses and government agencies NEVER request payment in cryptocurrency. If someone insists on crypto payment, it is almost certainly a scam.",
+    "examples": ["Send Bitcoin to this wallet address", "Convert your money to USDT and transfer", "Use this crypto exchange to send payment"]
+  },
+  {
+    "id": "romance_scam",
+    "keywords": ["met online", "dating app", "line friend", "whatsapp stranger", "never met in person", "send money lover", "boyfriend abroad", "girlfriend abroad", "love money", "romantic partner money"],
+    "risk_level": "danger",
+    "title": "Romance Scam",
+    "description": "Someone you met online (LINE, WhatsApp, dating apps, social media) is asking you to send money. This is extremely common in Japan, targeting both foreigners and Japanese.",
+    "advice": "Never send money to someone you haven't met in person. Scammers build emotional connections over weeks or months before asking for money. Report to police (Cybercrime Division).",
+    "examples": ["My partner I met on Tinder needs money for an emergency", "Someone on LINE asked me to invest together", "A person on WhatsApp says they're stuck abroad and need money"]
+  },
+  {
+    "id": "immigration_scam",
+    "keywords": ["immigration", "visa fee", "deportation", "immigration bureau", "nyukan", "入管", "visa renewal fee", "overstay fine"],
+    "risk_level": "danger",
+    "title": "Immigration Authority Scam",
+    "description": "Someone claiming to be from Japanese Immigration (Nyukan) is asking you to send money. The Immigration Bureau NEVER contacts people by phone/email to demand payment.",
+    "advice": "Hang up immediately. The real Immigration Services Agency of Japan will send official letters by mail. If concerned, visit your local immigration office in person.",
+    "examples": ["Immigration says you must pay a fine immediately", "Your visa will be cancelled unless you pay now", "You'll be deported if you don't send money"]
+  },
+  {
+    "id": "lottery_prize",
+    "keywords": ["won lottery", "prize winner", "congratulations you won", "claim prize", "winning notification", "lottery winner", "lucky draw"],
+    "risk_level": "danger",
+    "title": "Lottery/Prize Scam",
+    "description": "You received a message saying you won a lottery or prize you never entered. They'll ask for a 'processing fee' or your bank details.",
+    "advice": "You cannot win a lottery you never entered. Delete the message immediately. Never share bank account details with unknown parties.",
+    "examples": ["Congratulations! You won the Japan International Lottery", "You've been selected as a lucky winner, pay the fee to claim", "Your email was randomly selected for a cash prize"]
+  },
+  {
+    "id": "investment_scam",
+    "keywords": ["guaranteed return", "guaranteed profit", "investment opportunity", "high return", "double your money", "forex trading", "easy money", "quick profit", "100% return", "risk free investment"],
+    "risk_level": "danger",
+    "title": "Investment Scam",
+    "description": "Someone is promising guaranteed high returns on an investment. No legitimate investment guarantees profits. This is especially common on LINE and social media in Japan.",
+    "advice": "No investment is risk-free or guaranteed. Check if the company is registered with Japan's FSA (Financial Services Agency). Report to the Securities and Exchange Surveillance Commission.",
+    "examples": ["Invest in this forex fund for guaranteed 30% monthly returns", "Double your money in 30 days with this crypto trading bot", "Exclusive investment opportunity only for foreigners in Japan"]
+  },
+  {
+    "id": "bank_phishing",
+    "keywords": ["verify account", "account suspended", "update bank details", "confirm identity bank", "bank email", "click link bank", "security alert bank", "unusual activity"],
+    "risk_level": "caution",
+    "title": "Bank Phishing Scam",
+    "description": "You received an email or SMS that looks like it's from your bank, asking you to click a link or verify your account. Japanese banks are frequently impersonated.",
+    "advice": "Never click links in emails/SMS from your bank. Always go directly to your bank's official website or app. Call your bank's official number if concerned.",
+    "examples": ["Your Yucho account has been suspended, click here to verify", "SBI security alert: unusual activity detected", "Confirm your identity to avoid account closure"]
+  },
+  {
+    "id": "unlicensed_service",
+    "keywords": ["underground bank", "informal transfer", "hawala", "hundi", "no license", "unregistered", "cash courier", "friend can transfer cheaper"],
+    "risk_level": "danger",
+    "title": "Unlicensed Money Transfer",
+    "description": "Using unlicensed money transfer services (underground banking) is illegal in Japan. You could lose your money AND face criminal charges.",
+    "advice": "Only use services licensed by Japan's FSA (Financial Services Agency). Check the FSA registry. Using unlicensed services can result in fines and deportation.",
+    "examples": ["My friend can send money to your country cheaper than Wise", "Use this cash transfer network, no fees", "This informal service has better rates than banks"]
+  },
+  {
+    "id": "tech_support",
+    "keywords": ["microsoft calling", "tech support", "computer virus", "remote access", "teamviewer", "anydesk", "your computer infected"],
+    "risk_level": "caution",
+    "title": "Tech Support Scam",
+    "description": "Someone claims your computer has a virus and asks you to install remote access software or pay for 'repairs'. They may ask for payment via convenience store gift cards or wire transfer.",
+    "advice": "Microsoft, Apple, and other companies never make unsolicited calls about viruses. Hang up. Never install remote access software for strangers. Never buy gift cards as payment.",
+    "examples": ["Microsoft detected a virus on your computer", "Pay for tech support with iTunes gift cards", "Install TeamViewer so we can fix your computer"]
+  },
+  {
+    "id": "safe_legitimate",
+    "keywords": ["wise", "transferwise", "revolut", "sbi remit", "paypal", "western union", "moneygram", "yucho", "japan post bank", "shinsei bank", "sony bank"],
+    "risk_level": "safe",
+    "title": "Recognized Money Transfer Service",
+    "description": "This appears to be a recognized, licensed money transfer service. However, always verify you're on the official website and not a phishing site.",
+    "advice": "This service is generally safe to use. Always access through official websites/apps. Compare fees and rates before sending. Keep transaction receipts.",
+    "examples": []
+  }
+]
