@@ -646,3 +646,5 @@ body {
     gap: 1rem;
   }
 }
+
+@media(max-width:480px){h1{font-size:1.3rem}.container{padding:10px}body{font-size:14px}}
