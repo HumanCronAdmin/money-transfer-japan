@@ -48,6 +48,7 @@
     var input = document.getElementById('scam-input').value.trim().toLowerCase();
     var resultsEl = document.getElementById('scam-results');
 
+    gtag('event', 'scam_checked_transfer', {tab: 'scam'});
     if (!input) {
       resultsEl.innerHTML =
         '<div class="no-results"><div class="no-results-icon">\u270d\ufe0f</div>' +

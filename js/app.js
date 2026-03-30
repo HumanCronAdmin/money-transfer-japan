@@ -61,6 +61,7 @@
         this.classList.add('active');
         document.querySelectorAll('.section').forEach(function (s) { s.classList.remove('active'); });
         document.getElementById(target).classList.add('active');
+        gtag('event', 'transfer_compared', {tab: target.replace('-section', '')});
       });
     });
   }
@@ -181,6 +182,7 @@
     }
 
     var midRate = exchangeRates[currency];
+    gtag('event', 'transfer_compared', {tab: 'compare', destination_currency: currency});
     if (!midRate) {
       document.getElementById('results').innerHTML =
         '<div class="no-results"><div class="no-results-icon">&#x2753;</div>' +
