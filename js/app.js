@@ -313,7 +313,7 @@
       '<div class="detail-value highlight">' + formatRecipient + '</div></div></div>' +
       '<div class="service-pros">' + prosHtml + '</div>' +
       '<div class="safety-stars">Safety: ' + stars + ' <small>' + escHtml(svc.safety_note) + '</small></div>' +
-      '<a href="' + escHtml(svc.affiliate_url) + '" target="_blank" rel="noopener noreferrer" class="service-cta" style="margin-top:0.75rem;">' +
+      '<a href="' + escHtml(svc.affiliate_url) + '" target="_blank" rel="nofollow sponsored noopener" class="service-cta" style="margin-top:0.75rem;">' +
       escHtml(svc.cta_text) + ' \u2192</a></div>';
   }
 

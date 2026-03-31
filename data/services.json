@@ -2,7 +2,7 @@
   {
     "id": "wise",
     "name": "Wise (TransferWise)",
-    "logo_emoji": "\ud83d\udca1",
+    "logo_emoji": "💡",
     "fee_type": "percentage",
     "fee_percentage": 0.6,
     "fee_fixed_jpy": 0,
@@ -12,21 +12,51 @@
     "speed_days_min": 0,
     "speed_days_max": 2,
     "speed_label": "0-2 business days",
-    "supported_currencies": ["USD", "EUR", "GBP", "AUD", "CAD", "PHP", "INR", "VND", "THB", "BRL", "SGD", "KRW", "CNY", "MYR", "IDR", "NZD"],
-    "send_methods": ["Bank transfer", "Debit card"],
-    "receive_methods": ["Bank deposit"],
-    "pros": ["Mid-market exchange rate (no markup)", "Transparent fees shown upfront", "Fast transfers to most countries", "Regulated in multiple jurisdictions"],
-    "cons": ["Fees can be high for very small amounts", "Not available for all currency corridors from Japan"],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD",
+      "PHP",
+      "INR",
+      "VND",
+      "THB",
+      "BRL",
+      "SGD",
+      "KRW",
+      "CNY",
+      "MYR",
+      "IDR",
+      "NZD"
+    ],
+    "send_methods": [
+      "Bank transfer",
+      "Debit card"
+    ],
+    "receive_methods": [
+      "Bank deposit"
+    ],
+    "pros": [
+      "Mid-market exchange rate (no markup)",
+      "Transparent fees shown upfront",
+      "Fast transfers to most countries",
+      "Regulated in multiple jurisdictions"
+    ],
+    "cons": [
+      "Fees can be high for very small amounts",
+      "Not available for all currency corridors from Japan"
+    ],
     "safety_rating": 5,
     "safety_note": "FCA regulated, licensed in Japan. Trusted by 16M+ customers worldwide.",
     "official_url": "https://wise.com/",
-    "affiliate_url": "https://wise.com/",
-    "cta_text": "Send with Wise"
+    "affiliate_url": "https://wise.com/invite/drhc/x5ykid2",
+    "cta_text": "Send with Wise (¥11,000 bonus)"
   },
   {
     "id": "revolut",
     "name": "Revolut",
-    "logo_emoji": "\ud83d\udcb3",
+    "logo_emoji": "💳",
     "fee_type": "mixed",
     "fee_percentage": 0.5,
     "fee_fixed_jpy": 0,
@@ -36,11 +66,39 @@
     "speed_days_min": 0,
     "speed_days_max": 3,
     "speed_label": "0-3 business days",
-    "supported_currencies": ["USD", "EUR", "GBP", "AUD", "CAD", "PHP", "INR", "VND", "THB", "SGD", "KRW", "CHF", "MYR"],
-    "send_methods": ["In-app transfer"],
-    "receive_methods": ["Bank deposit", "Revolut account"],
-    "pros": ["Free transfers up to \u00a5100,000/month on Standard plan", "Competitive exchange rates", "Easy-to-use mobile app", "Multi-currency account"],
-    "cons": ["Free limit depends on plan tier", "Markup applied outside trading hours", "Japan availability may be limited"],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD",
+      "PHP",
+      "INR",
+      "VND",
+      "THB",
+      "SGD",
+      "KRW",
+      "CHF",
+      "MYR"
+    ],
+    "send_methods": [
+      "In-app transfer"
+    ],
+    "receive_methods": [
+      "Bank deposit",
+      "Revolut account"
+    ],
+    "pros": [
+      "Free transfers up to ¥100,000/month on Standard plan",
+      "Competitive exchange rates",
+      "Easy-to-use mobile app",
+      "Multi-currency account"
+    ],
+    "cons": [
+      "Free limit depends on plan tier",
+      "Markup applied outside trading hours",
+      "Japan availability may be limited"
+    ],
     "safety_rating": 4,
     "safety_note": "Licensed e-money institution. Growing presence in Japan.",
     "official_url": "https://www.revolut.com/",
@@ -50,7 +108,7 @@
   {
     "id": "sbi_remit",
     "name": "SBI Remit",
-    "logo_emoji": "\ud83c\udf0f",
+    "logo_emoji": "🌏",
     "fee_type": "fixed",
     "fee_percentage": 0,
     "fee_fixed_jpy": 480,
@@ -60,11 +118,43 @@
     "speed_days_min": 0,
     "speed_days_max": 1,
     "speed_label": "Minutes to 1 day",
-    "supported_currencies": ["PHP", "VND", "THB", "IDR", "BRL", "INR", "USD", "KRW", "CNY", "MYR", "SGD", "NPR", "BDT", "LKR", "MMK"],
-    "send_methods": ["Bank transfer", "Convenience store", "ATM"],
-    "receive_methods": ["Bank deposit", "Cash pickup"],
-    "pros": ["Very low fixed fee (\u00a5480)", "Cash pickup available in many countries", "Can send from convenience stores/ATMs", "Strong for Southeast Asia corridors"],
-    "cons": ["Exchange rate markup is higher", "Limited to certain corridors", "Interface mostly in Japanese"],
+    "supported_currencies": [
+      "PHP",
+      "VND",
+      "THB",
+      "IDR",
+      "BRL",
+      "INR",
+      "USD",
+      "KRW",
+      "CNY",
+      "MYR",
+      "SGD",
+      "NPR",
+      "BDT",
+      "LKR",
+      "MMK"
+    ],
+    "send_methods": [
+      "Bank transfer",
+      "Convenience store",
+      "ATM"
+    ],
+    "receive_methods": [
+      "Bank deposit",
+      "Cash pickup"
+    ],
+    "pros": [
+      "Very low fixed fee (¥480)",
+      "Cash pickup available in many countries",
+      "Can send from convenience stores/ATMs",
+      "Strong for Southeast Asia corridors"
+    ],
+    "cons": [
+      "Exchange rate markup is higher",
+      "Limited to certain corridors",
+      "Interface mostly in Japanese"
+    ],
     "safety_rating": 5,
     "safety_note": "Operated by SBI Group. Fully licensed in Japan by FSA.",
     "official_url": "https://www.remit.co.jp/",
@@ -74,7 +164,7 @@
   {
     "id": "paypal",
     "name": "PayPay Bank (Japan Net Bank)",
-    "logo_emoji": "\ud83c\udfe6",
+    "logo_emoji": "🏦",
     "fee_type": "fixed",
     "fee_percentage": 0,
     "fee_fixed_jpy": 3000,
@@ -84,11 +174,36 @@
     "speed_days_min": 2,
     "speed_days_max": 5,
     "speed_label": "2-5 business days",
-    "supported_currencies": ["USD", "EUR", "GBP", "AUD", "CAD", "CHF", "KRW", "CNY", "HKD", "SGD", "THB"],
-    "send_methods": ["Online banking"],
-    "receive_methods": ["Bank deposit (SWIFT)"],
-    "pros": ["Reliable Japanese bank", "SWIFT transfers to most countries", "Online banking interface available"],
-    "cons": ["High fixed fee (\u00a53,000+)", "Poor exchange rate (3%+ markup)", "Slow compared to fintech services", "Intermediary bank fees may apply"],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD",
+      "CHF",
+      "KRW",
+      "CNY",
+      "HKD",
+      "SGD",
+      "THB"
+    ],
+    "send_methods": [
+      "Online banking"
+    ],
+    "receive_methods": [
+      "Bank deposit (SWIFT)"
+    ],
+    "pros": [
+      "Reliable Japanese bank",
+      "SWIFT transfers to most countries",
+      "Online banking interface available"
+    ],
+    "cons": [
+      "High fixed fee (¥3,000+)",
+      "Poor exchange rate (3%+ markup)",
+      "Slow compared to fintech services",
+      "Intermediary bank fees may apply"
+    ],
     "safety_rating": 5,
     "safety_note": "Licensed Japanese bank. Fully regulated by FSA.",
     "official_url": "https://www.paypay-bank.co.jp/",
@@ -98,7 +213,7 @@
   {
     "id": "jp_post",
     "name": "Japan Post Bank (Yucho)",
-    "logo_emoji": "\ud83c\udfe3",
+    "logo_emoji": "🏣",
     "fee_type": "fixed",
     "fee_percentage": 0,
     "fee_fixed_jpy": 2500,
@@ -108,11 +223,36 @@
     "speed_days_min": 3,
     "speed_days_max": 7,
     "speed_label": "3-7 business days",
-    "supported_currencies": ["USD", "EUR", "GBP", "AUD", "CAD", "KRW", "CNY", "THB", "PHP"],
-    "send_methods": ["Branch visit", "Online (limited)"],
-    "receive_methods": ["Bank deposit (SWIFT)"],
-    "pros": ["Branches everywhere in Japan", "Trusted government-affiliated institution", "Can send in-person with staff help"],
-    "cons": ["High fees (\u00a52,500+)", "Very poor exchange rate", "Slow transfer speed", "Must visit branch for most transfers", "Intermediary bank fees may apply"],
+    "supported_currencies": [
+      "USD",
+      "EUR",
+      "GBP",
+      "AUD",
+      "CAD",
+      "KRW",
+      "CNY",
+      "THB",
+      "PHP"
+    ],
+    "send_methods": [
+      "Branch visit",
+      "Online (limited)"
+    ],
+    "receive_methods": [
+      "Bank deposit (SWIFT)"
+    ],
+    "pros": [
+      "Branches everywhere in Japan",
+      "Trusted government-affiliated institution",
+      "Can send in-person with staff help"
+    ],
+    "cons": [
+      "High fees (¥2,500+)",
+      "Very poor exchange rate",
+      "Slow transfer speed",
+      "Must visit branch for most transfers",
+      "Intermediary bank fees may apply"
+    ],
     "safety_rating": 5,
     "safety_note": "Government-affiliated bank. Maximum safety and reliability.",
     "official_url": "https://www.jp-bank.japanpost.jp/",
