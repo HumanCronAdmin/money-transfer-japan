@@ -82,7 +82,7 @@
   },
   {
     "id": "safe_legitimate",
-    "keywords": ["wise", "transferwise", "revolut", "sbi remit", "paypal", "western union", "moneygram", "yucho", "japan post bank", "shinsei bank", "sony bank"],
+    "keywords": ["wise", "transferwise", "revolut", "sbi remit", "paypal", "western union", "smbc prestia", "prestia", "paypay bank", "japan post bank", "yucho"],
     "risk_level": "safe",
     "title": "Recognized Money Transfer Service",
     "description": "This appears to be a recognized, licensed money transfer service. However, always verify you're on the official website and not a phishing site.",

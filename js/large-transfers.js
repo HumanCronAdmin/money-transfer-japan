@@ -17,12 +17,12 @@
     },
     {
       title: 'Best Services by Transfer Size',
-      body: '<strong>Under 1M JPY:</strong> Wise or Revolut — lowest fees, best rates, fastest.<br><strong>1M - 5M JPY:</strong> Wise (multiple transfers) or OFX — OFX has no transfer limits and offers better rates for larger amounts.<br><strong>Over 5M JPY:</strong> Bank wire (SWIFT) or OFX — your bank may offer preferential rates for large amounts. Call and negotiate. Some banks waive fees for transfers above a threshold.',
+      body: '<strong>Under 1M JPY:</strong> Wise or Revolut — lowest fees, best rates, fastest.<br><strong>1M - 5M JPY:</strong> Wise (multiple transfers) or SMBC Prestia — Prestia offers competitive rates for larger amounts and fee waivers for premium customers.<br><strong>Over 5M JPY:</strong> Bank wire (SWIFT) via SMBC Prestia or your bank — your bank may offer preferential rates for large amounts. Call and negotiate. Some banks waive fees for transfers above a threshold.',
       tag: 'Comparison'
     },
     {
       title: 'Currency Timing for Large Amounts',
-      body: 'On a 5,000,000 JPY transfer, a 1% rate difference means 50,000 JPY. Do not rush. Monitor the exchange rate for a few days using the Compare tab. Consider splitting across multiple days to average out rate fluctuations (dollar-cost averaging). Services like OFX offer forward contracts to lock in a rate for future transfers.',
+      body: 'On a 5,000,000 JPY transfer, a 1% rate difference means 50,000 JPY. Do not rush. Monitor the exchange rate for a few days using the Compare tab. Consider splitting across multiple days to average out rate fluctuations (dollar-cost averaging). Wise allows you to set up rate alerts to notify you when the rate hits your target.',
       tag: 'Strategy'
     },
     {

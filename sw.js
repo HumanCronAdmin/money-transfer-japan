@@ -5,6 +5,9 @@ const ASSETS = [
   '/money-transfer-japan/css/style.css',
   '/money-transfer-japan/js/app.js',
   '/money-transfer-japan/js/scam-checker.js',
+  '/money-transfer-japan/js/large-transfers.js',
+  '/money-transfer-japan/data/services.json',
+  '/money-transfer-japan/data/scam-patterns.json',
   '/money-transfer-japan/favicon.svg'
 ];
 

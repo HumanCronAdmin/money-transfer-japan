@@ -162,7 +162,7 @@
     "cta_text": "Use SBI Remit"
   },
   {
-    "id": "paypal",
+    "id": "paypay_bank",
     "name": "PayPay Bank (Japan Net Bank)",
     "logo_emoji": "🏦",
     "fee_type": "fixed",
