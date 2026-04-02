@@ -235,28 +235,156 @@
       "PHP"
     ],
     "send_methods": [
-      "Branch visit",
-      "Online (limited)"
+      "Online (Yucho Direct)"
     ],
     "receive_methods": [
       "Bank deposit (SWIFT)"
     ],
     "pros": [
-      "Branches everywhere in Japan",
       "Trusted government-affiliated institution",
-      "Can send in-person with staff help"
+      "Online transfers available via Yucho Direct"
     ],
     "cons": [
       "High fees (¥2,500+)",
       "Very poor exchange rate",
       "Slow transfer speed",
-      "Must visit branch for most transfers",
+      "Branch counter transfers discontinued (Aug 2025)",
+      "Online service in Japanese only",
       "Intermediary bank fees may apply"
     ],
     "safety_rating": 5,
-    "safety_note": "Government-affiliated bank. Maximum safety and reliability.",
+    "safety_note": "Government-affiliated bank. Maximum safety and reliability. Branch counter international transfers ended August 29, 2025.",
     "official_url": "https://www.jp-bank.japanpost.jp/",
     "affiliate_url": "https://www.jp-bank.japanpost.jp/",
     "cta_text": "Visit Japan Post"
+  },
+  {
+    "id": "western_union",
+    "name": "Western Union (via Seven Bank)",
+    "logo_emoji": "🟡",
+    "fee_type": "fixed",
+    "fee_percentage": 0,
+    "fee_fixed_jpy": 990,
+    "fee_min_jpy": 400,
+    "uses_mid_market_rate": false,
+    "rate_markup_percentage": 2.0,
+    "speed_days_min": 0,
+    "speed_days_max": 4,
+    "speed_label": "Minutes (cash pickup) to 1-4 days (bank deposit)",
+    "supported_currencies": [
+      "USD", "EUR", "GBP", "PHP", "INR", "VND",
+      "THB", "BRL", "KRW", "CNY", "AUD", "CAD"
+    ],
+    "send_methods": [
+      "Seven Bank ATM",
+      "Online banking (Seven Bank)"
+    ],
+    "receive_methods": [
+      "Cash pickup",
+      "Bank deposit"
+    ],
+    "pros": [
+      "Cash pickup available in 200+ countries",
+      "Send from any Seven Bank ATM (24/7)",
+      "Low fees for small amounts (from ¥400)",
+      "9 languages supported at ATMs"
+    ],
+    "cons": [
+      "Exchange rate markup not fully disclosed",
+      "Maximum ¥1,000,000 per transfer",
+      "Fees increase with transfer amount (up to ¥2,000)",
+      "Mobile app transfers not supported"
+    ],
+    "safety_rating": 4,
+    "safety_note": "Global money transfer company operating since 1851. Licensed in Japan via Seven Bank partnership.",
+    "official_url": "https://www.westernunion.com/jp/en/home.html",
+    "affiliate_url": "https://www.westernunion.com/jp/en/home.html",
+    "cta_text": "Send via Western Union"
+  },
+  {
+    "id": "smbc_prestia",
+    "name": "SMBC Prestia",
+    "logo_emoji": "🏦",
+    "fee_type": "fixed",
+    "fee_percentage": 0,
+    "fee_fixed_jpy": 3500,
+    "fee_min_jpy": 3500,
+    "uses_mid_market_rate": false,
+    "rate_markup_percentage": 1.0,
+    "speed_days_min": 2,
+    "speed_days_max": 5,
+    "speed_label": "2-5 business days",
+    "supported_currencies": [
+      "USD", "EUR", "GBP", "AUD", "NZD", "CAD",
+      "CHF", "SGD", "HKD", "CNY", "THB"
+    ],
+    "send_methods": [
+      "Online banking (PRESTIA Online)",
+      "Mobile app",
+      "Branch visit"
+    ],
+    "receive_methods": [
+      "Bank deposit (SWIFT)"
+    ],
+    "pros": [
+      "Fee waived for GOLD/PREMIUM tier customers",
+      "17 currencies supported",
+      "Full English online banking",
+      "New accounts get premium pricing for 3 months"
+    ],
+    "cons": [
+      "High fee for standard customers (¥3,500 online, ¥7,000 branch)",
+      "Premium tier requires ¥10M+ balance",
+      "Intermediary bank fees charged to recipient",
+      "Transfer speed depends on intermediary banks"
+    ],
+    "safety_rating": 5,
+    "safety_note": "SMBC Group subsidiary. Fully regulated Japanese bank licensed by FSA.",
+    "official_url": "https://www.smbctb.co.jp/en/",
+    "affiliate_url": "https://www.smbctb.co.jp/en/",
+    "cta_text": "Visit SMBC Prestia"
+  },
+  {
+    "id": "paypal_transfer",
+    "name": "PayPal",
+    "logo_emoji": "💙",
+    "fee_type": "fixed",
+    "fee_percentage": 0,
+    "fee_fixed_jpy": 499,
+    "fee_min_jpy": 499,
+    "uses_mid_market_rate": false,
+    "rate_markup_percentage": 4.0,
+    "speed_days_min": 0,
+    "speed_days_max": 3,
+    "speed_label": "Instant (PayPal to PayPal) to 3 days (bank withdrawal)",
+    "supported_currencies": [
+      "USD", "EUR", "GBP", "AUD", "CAD", "CHF",
+      "SGD", "HKD", "KRW", "CNY", "THB", "PHP",
+      "INR", "NZD", "MYR"
+    ],
+    "send_methods": [
+      "PayPal account (online/app)"
+    ],
+    "receive_methods": [
+      "PayPal account",
+      "Bank withdrawal"
+    ],
+    "pros": [
+      "Instant transfers between PayPal accounts",
+      "25+ currencies supported",
+      "Widely recognized and trusted globally",
+      "Easy to use for anyone with a PayPal account"
+    ],
+    "cons": [
+      "Very high total cost (¥499 fee + 3-4% exchange markup)",
+      "Recipient must also have PayPal account",
+      "4% currency conversion markup",
+      "Not ideal for large transfers"
+    ],
+    "safety_rating": 5,
+    "safety_note": "Licensed globally. Regulated in Japan by FSA. Buyer/sender protection available.",
+    "official_url": "https://www.paypal.com/jp/",
+    "affiliate_url": "https://www.paypal.com/jp/",
+    "cta_text": "Send with PayPal"
   }
 ]
